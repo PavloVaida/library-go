@@ -74,4 +74,4 @@ replace github.com/kubernetes-sigs/kube-storage-version-migrator => github.com/o
 
 replace vbom.ml/util => github.com/fvbommel/util v0.0.0-20180919145318-efcd4e0f9787
 
-replace github.com/openshift/library-go => github.com/PavloVaida/library-go v0.0.0-20201021140721-9c7e22999420
+replace github.com/openshift/library-go => github.com/PavloVaida/library-go master
