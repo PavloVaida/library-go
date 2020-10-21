@@ -12,7 +12,7 @@ import (
 	configv1 "github.com/openshift/api/config/v1"
 	configlistersv1 "github.com/openshift/client-go/config/listers/config/v1"
 
-	"github.com/openshift/library-go/pkg/operator/events"
+	"github.com/PavloVaida/library-go/pkg/operator/events"
 )
 
 func TestObserveClusterCIDRs(t *testing.T) {

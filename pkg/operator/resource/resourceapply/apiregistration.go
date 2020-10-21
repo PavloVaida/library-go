@@ -10,8 +10,8 @@ import (
 	apiregistrationv1 "k8s.io/kube-aggregator/pkg/apis/apiregistration/v1"
 	apiregistrationv1client "k8s.io/kube-aggregator/pkg/client/clientset_generated/clientset/typed/apiregistration/v1"
 
-	"github.com/openshift/library-go/pkg/operator/events"
-	"github.com/openshift/library-go/pkg/operator/resource/resourcemerge"
+	"github.com/PavloVaida/library-go/pkg/operator/events"
+	"github.com/PavloVaida/library-go/pkg/operator/resource/resourcemerge"
 )
 
 // ApplyAPIService merges objectmeta and requires apiservice coordinates.  It does not touch CA bundles, which should be managed via service CA controller.

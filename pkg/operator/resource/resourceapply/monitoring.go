@@ -16,7 +16,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/dynamic"
 
-	"github.com/openshift/library-go/pkg/operator/events"
+	"github.com/PavloVaida/library-go/pkg/operator/events"
 )
 
 var serviceMonitorGVR = schema.GroupVersionResource{Group: "monitoring.coreos.com", Version: "v1", Resource: "servicemonitors"}

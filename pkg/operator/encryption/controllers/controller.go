@@ -3,8 +3,8 @@ package controllers
 import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"github.com/openshift/library-go/pkg/operator/management"
-	operatorv1helpers "github.com/openshift/library-go/pkg/operator/v1helpers"
+	"github.com/PavloVaida/library-go/pkg/operator/management"
+	operatorv1helpers "github.com/PavloVaida/library-go/pkg/operator/v1helpers"
 )
 
 // Provider abstracts external dependencies and preconditions that need to be dynamic during a downgrade/upgrade

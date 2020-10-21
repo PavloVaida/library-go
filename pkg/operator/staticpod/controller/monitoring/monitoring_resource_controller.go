@@ -14,14 +14,14 @@ import (
 
 	operatorv1 "github.com/openshift/api/operator/v1"
 
-	"github.com/openshift/library-go/pkg/assets"
-	"github.com/openshift/library-go/pkg/controller/factory"
-	"github.com/openshift/library-go/pkg/operator/condition"
-	"github.com/openshift/library-go/pkg/operator/events"
-	"github.com/openshift/library-go/pkg/operator/management"
-	"github.com/openshift/library-go/pkg/operator/resource/resourceapply"
-	"github.com/openshift/library-go/pkg/operator/staticpod/controller/monitoring/bindata"
-	"github.com/openshift/library-go/pkg/operator/v1helpers"
+	"github.com/PavloVaida/library-go/pkg/assets"
+	"github.com/PavloVaida/library-go/pkg/controller/factory"
+	"github.com/PavloVaida/library-go/pkg/operator/condition"
+	"github.com/PavloVaida/library-go/pkg/operator/events"
+	"github.com/PavloVaida/library-go/pkg/operator/management"
+	"github.com/PavloVaida/library-go/pkg/operator/resource/resourceapply"
+	"github.com/PavloVaida/library-go/pkg/operator/staticpod/controller/monitoring/bindata"
+	"github.com/PavloVaida/library-go/pkg/operator/v1helpers"
 )
 
 const (

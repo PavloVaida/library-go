@@ -9,11 +9,11 @@ import (
 
 	operatorv1 "github.com/openshift/api/operator/v1"
 
-	"github.com/openshift/library-go/pkg/controller/factory"
-	"github.com/openshift/library-go/pkg/operator/condition"
-	"github.com/openshift/library-go/pkg/operator/events"
-	"github.com/openshift/library-go/pkg/operator/v1helpers"
-	operatorv1helpers "github.com/openshift/library-go/pkg/operator/v1helpers"
+	"github.com/PavloVaida/library-go/pkg/controller/factory"
+	"github.com/PavloVaida/library-go/pkg/operator/condition"
+	"github.com/PavloVaida/library-go/pkg/operator/events"
+	"github.com/PavloVaida/library-go/pkg/operator/v1helpers"
+	operatorv1helpers "github.com/PavloVaida/library-go/pkg/operator/v1helpers"
 )
 
 // ManagementStateController watches changes of `managementState` field and react in case that field is set to an unsupported value.

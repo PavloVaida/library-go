@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/openshift/library-go/pkg/crypto"
-	"github.com/openshift/library-go/pkg/operator/events"
-	"github.com/openshift/library-go/pkg/operator/resource/resourceapply"
+	"github.com/PavloVaida/library-go/pkg/crypto"
+	"github.com/PavloVaida/library-go/pkg/operator/events"
+	"github.com/PavloVaida/library-go/pkg/operator/resource/resourceapply"
 	corev1 "k8s.io/api/core/v1"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

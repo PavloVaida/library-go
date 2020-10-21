@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/openshift/library-go/pkg/operator/events"
+	"github.com/PavloVaida/library-go/pkg/operator/events"
 	kubeinformers "k8s.io/client-go/informers"
 	"k8s.io/client-go/rest"
 	apiregistrationv1 "k8s.io/kube-aggregator/pkg/apis/apiregistration/v1"

@@ -4,7 +4,7 @@ import (
 	"time"
 
 	configv1 "github.com/openshift/api/config/v1"
-	"github.com/openshift/library-go/pkg/crypto"
+	"github.com/PavloVaida/library-go/pkg/crypto"
 )
 
 func DefaultString(target *string, defaultVal string) {

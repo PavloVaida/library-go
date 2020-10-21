@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/openshift/library-go/pkg/authorization/scopemetadata"
+	"github.com/PavloVaida/library-go/pkg/authorization/scopemetadata"
 
 	clientv1 "k8s.io/api/core/v1"
 	corev1 "k8s.io/api/core/v1"

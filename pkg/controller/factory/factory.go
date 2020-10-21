@@ -8,8 +8,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/openshift/library-go/pkg/operator/events"
-	operatorv1helpers "github.com/openshift/library-go/pkg/operator/v1helpers"
+	"github.com/PavloVaida/library-go/pkg/operator/events"
+	operatorv1helpers "github.com/PavloVaida/library-go/pkg/operator/v1helpers"
 )
 
 // DefaultQueueKey is the queue key used for string trigger based controllers.

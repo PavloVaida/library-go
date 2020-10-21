@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/openshift/library-go/pkg/operator/events"
+	"github.com/PavloVaida/library-go/pkg/operator/events"
 )
 
 type TestingEventRecorder struct {

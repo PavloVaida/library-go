@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	operatorv1 "github.com/openshift/api/operator/v1"
-	"github.com/openshift/library-go/pkg/operator/v1helpers"
+	"github.com/PavloVaida/library-go/pkg/operator/v1helpers"
 	appsv1 "k8s.io/api/apps/v1"
 	"k8s.io/apimachinery/pkg/api/equality"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

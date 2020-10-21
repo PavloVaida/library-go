@@ -21,7 +21,7 @@ import (
 	"k8s.io/client-go/restmapper"
 	ktesting "k8s.io/client-go/testing"
 
-	"github.com/openshift/library-go/pkg/assets"
+	"github.com/PavloVaida/library-go/pkg/assets"
 )
 
 func init() {

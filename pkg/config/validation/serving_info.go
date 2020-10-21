@@ -11,7 +11,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/validation/field"
 
 	configv1 "github.com/openshift/api/config/v1"
-	"github.com/openshift/library-go/pkg/crypto"
+	"github.com/PavloVaida/library-go/pkg/crypto"
 )
 
 func ValidateHTTPServingInfo(info configv1.HTTPServingInfo, fldPath *field.Path) ValidationResults {

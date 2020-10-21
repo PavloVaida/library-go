@@ -11,7 +11,7 @@ import (
 	corev1listers "k8s.io/client-go/listers/core/v1"
 	"k8s.io/client-go/util/cert"
 
-	"github.com/openshift/library-go/pkg/crypto"
+	"github.com/PavloVaida/library-go/pkg/crypto"
 )
 
 func CombineCABundleConfigMaps(destinationConfigMap ResourceLocation, lister corev1listers.ConfigMapLister, inputConfigMaps ...ResourceLocation) (*corev1.ConfigMap, error) {

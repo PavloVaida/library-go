@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/openshift/library-go/pkg/security/ldaputil"
+	"github.com/PavloVaida/library-go/pkg/security/ldaputil"
 	"k8s.io/client-go/util/cert"
 
 	"gopkg.in/ldap.v2"

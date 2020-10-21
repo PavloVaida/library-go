@@ -8,7 +8,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"github.com/openshift/library-go/pkg/operator/events"
+	"github.com/PavloVaida/library-go/pkg/operator/events"
 )
 
 func TestReportCreateEvent(t *testing.T) {

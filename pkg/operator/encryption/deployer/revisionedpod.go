@@ -13,10 +13,10 @@ import (
 	corev1client "k8s.io/client-go/kubernetes/typed/core/v1"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/openshift/library-go/pkg/operator/encryption/encryptionconfig"
-	"github.com/openshift/library-go/pkg/operator/encryption/statemachine"
-	"github.com/openshift/library-go/pkg/operator/resourcesynccontroller"
-	operatorv1helpers "github.com/openshift/library-go/pkg/operator/v1helpers"
+	"github.com/PavloVaida/library-go/pkg/operator/encryption/encryptionconfig"
+	"github.com/PavloVaida/library-go/pkg/operator/encryption/statemachine"
+	"github.com/PavloVaida/library-go/pkg/operator/resourcesynccontroller"
+	operatorv1helpers "github.com/PavloVaida/library-go/pkg/operator/v1helpers"
 )
 
 // MasterNodeProvider provides master nodes.

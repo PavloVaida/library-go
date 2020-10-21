@@ -11,9 +11,9 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/klog"
 
-	"github.com/openshift/library-go/pkg/operator/encryption/encryptionconfig"
-	"github.com/openshift/library-go/pkg/operator/encryption/secrets"
-	"github.com/openshift/library-go/pkg/operator/encryption/state"
+	"github.com/PavloVaida/library-go/pkg/operator/encryption/encryptionconfig"
+	"github.com/PavloVaida/library-go/pkg/operator/encryption/secrets"
+	"github.com/PavloVaida/library-go/pkg/operator/encryption/state"
 )
 
 // Deployer abstracts the deployment machanism like the static pod controllers.

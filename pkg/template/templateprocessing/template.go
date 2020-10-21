@@ -13,8 +13,8 @@ import (
 
 	appsv1 "github.com/openshift/api/apps/v1"
 	templatev1 "github.com/openshift/api/template/v1"
-	"github.com/openshift/library-go/pkg/legacyapi/legacygroupification"
-	. "github.com/openshift/library-go/pkg/template/generator"
+	"github.com/PavloVaida/library-go/pkg/legacyapi/legacygroupification"
+	. "github.com/PavloVaida/library-go/pkg/template/generator"
 )
 
 // match ${KEY}, KEY will be grouped

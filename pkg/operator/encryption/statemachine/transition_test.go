@@ -12,9 +12,9 @@ import (
 	apiserverconfigv1 "k8s.io/apiserver/pkg/apis/config/v1"
 	"k8s.io/utils/diff"
 
-	"github.com/openshift/library-go/pkg/operator/encryption/encryptionconfig"
-	"github.com/openshift/library-go/pkg/operator/encryption/state"
-	encryptiontesting "github.com/openshift/library-go/pkg/operator/encryption/testing"
+	"github.com/PavloVaida/library-go/pkg/operator/encryption/encryptionconfig"
+	"github.com/PavloVaida/library-go/pkg/operator/encryption/state"
+	encryptiontesting "github.com/PavloVaida/library-go/pkg/operator/encryption/testing"
 )
 
 func TestGetDesiredEncryptionState(t *testing.T) {

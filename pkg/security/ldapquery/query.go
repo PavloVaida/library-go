@@ -7,8 +7,8 @@ import (
 	"gopkg.in/ldap.v2"
 	"k8s.io/klog"
 
-	"github.com/openshift/library-go/pkg/security/ldapclient"
-	"github.com/openshift/library-go/pkg/security/ldaputil"
+	"github.com/PavloVaida/library-go/pkg/security/ldapclient"
+	"github.com/PavloVaida/library-go/pkg/security/ldaputil"
 )
 
 // NewLDAPQuery converts a user-provided LDAPQuery into a version we can use

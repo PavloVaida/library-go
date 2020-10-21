@@ -17,7 +17,7 @@ import (
 	dynamicfake "k8s.io/client-go/dynamic/fake"
 	clienttesting "k8s.io/client-go/testing"
 
-	"github.com/openshift/library-go/pkg/operator/events"
+	"github.com/PavloVaida/library-go/pkg/operator/events"
 )
 
 const (

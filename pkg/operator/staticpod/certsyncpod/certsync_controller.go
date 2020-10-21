@@ -16,9 +16,9 @@ import (
 	v1 "k8s.io/client-go/listers/core/v1"
 	"k8s.io/klog"
 
-	"github.com/openshift/library-go/pkg/controller/factory"
-	"github.com/openshift/library-go/pkg/operator/events"
-	"github.com/openshift/library-go/pkg/operator/staticpod/controller/revision"
+	"github.com/PavloVaida/library-go/pkg/controller/factory"
+	"github.com/PavloVaida/library-go/pkg/operator/events"
+	"github.com/PavloVaida/library-go/pkg/operator/staticpod/controller/revision"
 )
 
 type CertSyncController struct {

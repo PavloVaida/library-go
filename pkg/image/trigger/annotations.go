@@ -12,7 +12,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"github.com/openshift/library-go/pkg/image/referencemutator"
+	"github.com/PavloVaida/library-go/pkg/image/referencemutator"
 )
 
 func CalculateAnnotationTriggers(m metav1.Object, prefix string) (string, string, []ObjectFieldTrigger, error) {

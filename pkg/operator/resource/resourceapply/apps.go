@@ -14,8 +14,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/uuid"
 	appsclientv1 "k8s.io/client-go/kubernetes/typed/apps/v1"
 
-	"github.com/openshift/library-go/pkg/operator/events"
-	"github.com/openshift/library-go/pkg/operator/resource/resourcemerge"
+	"github.com/PavloVaida/library-go/pkg/operator/events"
+	"github.com/PavloVaida/library-go/pkg/operator/resource/resourcemerge"
 )
 
 // The Apply<type> methods in this file ensure that a resource is created or updated to match

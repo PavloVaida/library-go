@@ -11,9 +11,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	apiserverconfigv1 "k8s.io/apiserver/pkg/apis/config/v1"
 
-	"github.com/openshift/library-go/pkg/operator/encryption/secrets"
-	"github.com/openshift/library-go/pkg/operator/encryption/state"
-	encryptiontesting "github.com/openshift/library-go/pkg/operator/encryption/testing"
+	"github.com/PavloVaida/library-go/pkg/operator/encryption/secrets"
+	"github.com/PavloVaida/library-go/pkg/operator/encryption/state"
+	encryptiontesting "github.com/PavloVaida/library-go/pkg/operator/encryption/testing"
 )
 
 func TestToEncryptionState(t *testing.T) {

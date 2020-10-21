@@ -33,14 +33,14 @@ import (
 	configv1clientfake "github.com/openshift/client-go/config/clientset/versioned/fake"
 	configv1informers "github.com/openshift/client-go/config/informers/externalversions"
 
-	"github.com/openshift/library-go/pkg/operator/encryption"
-	"github.com/openshift/library-go/pkg/operator/encryption/controllers"
-	"github.com/openshift/library-go/pkg/operator/encryption/controllers/migrators"
-	"github.com/openshift/library-go/pkg/operator/encryption/secrets"
-	"github.com/openshift/library-go/pkg/operator/events"
-	"github.com/openshift/library-go/pkg/operator/genericoperatorclient"
-	"github.com/openshift/library-go/pkg/operator/v1helpers"
-	"github.com/openshift/library-go/test/library"
+	"github.com/PavloVaida/library-go/pkg/operator/encryption"
+	"github.com/PavloVaida/library-go/pkg/operator/encryption/controllers"
+	"github.com/PavloVaida/library-go/pkg/operator/encryption/controllers/migrators"
+	"github.com/PavloVaida/library-go/pkg/operator/encryption/secrets"
+	"github.com/PavloVaida/library-go/pkg/operator/events"
+	"github.com/PavloVaida/library-go/pkg/operator/genericoperatorclient"
+	"github.com/PavloVaida/library-go/pkg/operator/v1helpers"
+	"github.com/PavloVaida/library-go/test/library"
 )
 
 func TestEncryptionIntegration(tt *testing.T) {

@@ -26,7 +26,7 @@ import (
 	"k8s.io/klog"
 
 	"github.com/openshift/api/image/docker10"
-	"github.com/openshift/library-go/pkg/image/reference"
+	"github.com/PavloVaida/library-go/pkg/image/reference"
 )
 
 var (

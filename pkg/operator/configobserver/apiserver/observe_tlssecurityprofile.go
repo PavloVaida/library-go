@@ -13,9 +13,9 @@ import (
 	configv1 "github.com/openshift/api/config/v1"
 	configlistersv1 "github.com/openshift/client-go/config/listers/config/v1"
 
-	"github.com/openshift/library-go/pkg/crypto"
-	"github.com/openshift/library-go/pkg/operator/configobserver"
-	"github.com/openshift/library-go/pkg/operator/events"
+	"github.com/PavloVaida/library-go/pkg/crypto"
+	"github.com/PavloVaida/library-go/pkg/operator/configobserver"
+	"github.com/PavloVaida/library-go/pkg/operator/events"
 )
 
 // APIServerLister lists APIServer information and allows resources to be synced

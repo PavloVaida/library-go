@@ -6,17 +6,17 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	corev1 "k8s.io/client-go/kubernetes/typed/core/v1"
 
-	"github.com/openshift/library-go/pkg/operator/encryption/controllers/migrators"
+	"github.com/PavloVaida/library-go/pkg/operator/encryption/controllers/migrators"
 
 	configv1client "github.com/openshift/client-go/config/clientset/versioned/typed/config/v1"
 	configv1informers "github.com/openshift/client-go/config/informers/externalversions/config/v1"
 
-	"github.com/openshift/library-go/pkg/operator/events"
-	operatorv1helpers "github.com/openshift/library-go/pkg/operator/v1helpers"
+	"github.com/PavloVaida/library-go/pkg/operator/events"
+	operatorv1helpers "github.com/PavloVaida/library-go/pkg/operator/v1helpers"
 
-	"github.com/openshift/library-go/pkg/operator/encryption/controllers"
-	"github.com/openshift/library-go/pkg/operator/encryption/secrets"
-	"github.com/openshift/library-go/pkg/operator/encryption/statemachine"
+	"github.com/PavloVaida/library-go/pkg/operator/encryption/controllers"
+	"github.com/PavloVaida/library-go/pkg/operator/encryption/secrets"
+	"github.com/PavloVaida/library-go/pkg/operator/encryption/statemachine"
 )
 
 type runner interface {

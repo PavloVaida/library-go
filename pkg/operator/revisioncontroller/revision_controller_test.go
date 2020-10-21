@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/openshift/library-go/pkg/controller/factory"
-	"github.com/openshift/library-go/pkg/operator/staticpod/controller/prune"
-	"github.com/openshift/library-go/pkg/operator/v1helpers"
+	"github.com/PavloVaida/library-go/pkg/controller/factory"
+	"github.com/PavloVaida/library-go/pkg/operator/staticpod/controller/prune"
+	"github.com/PavloVaida/library-go/pkg/operator/v1helpers"
 
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -18,7 +18,7 @@ import (
 	clienttesting "k8s.io/client-go/testing"
 
 	operatorv1 "github.com/openshift/api/operator/v1"
-	"github.com/openshift/library-go/pkg/operator/events"
+	"github.com/PavloVaida/library-go/pkg/operator/events"
 )
 
 func filterCreateActions(actions []clienttesting.Action) []runtime.Object {

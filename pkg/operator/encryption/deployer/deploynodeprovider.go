@@ -8,7 +8,7 @@ import (
 	appsv1listers "k8s.io/client-go/listers/apps/v1"
 	"k8s.io/client-go/tools/cache"
 
-	operatorv1helpers "github.com/openshift/library-go/pkg/operator/v1helpers"
+	operatorv1helpers "github.com/PavloVaida/library-go/pkg/operator/v1helpers"
 )
 
 // DeploymentNodeProvider returns the node list from nodes matching the node selector of a Deployment

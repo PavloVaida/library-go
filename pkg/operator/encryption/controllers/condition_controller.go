@@ -12,12 +12,12 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	corev1client "k8s.io/client-go/kubernetes/typed/core/v1"
 
-	"github.com/openshift/library-go/pkg/controller/factory"
-	"github.com/openshift/library-go/pkg/operator/encryption/encryptionconfig"
-	"github.com/openshift/library-go/pkg/operator/encryption/state"
-	"github.com/openshift/library-go/pkg/operator/encryption/statemachine"
-	"github.com/openshift/library-go/pkg/operator/events"
-	operatorv1helpers "github.com/openshift/library-go/pkg/operator/v1helpers"
+	"github.com/PavloVaida/library-go/pkg/controller/factory"
+	"github.com/PavloVaida/library-go/pkg/operator/encryption/encryptionconfig"
+	"github.com/PavloVaida/library-go/pkg/operator/encryption/state"
+	"github.com/PavloVaida/library-go/pkg/operator/encryption/statemachine"
+	"github.com/PavloVaida/library-go/pkg/operator/events"
+	operatorv1helpers "github.com/PavloVaida/library-go/pkg/operator/v1helpers"
 )
 
 // conditionController maintains the Encrypted condition. It sets it to true iff there is a

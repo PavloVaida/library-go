@@ -11,8 +11,8 @@ import (
 
 	"github.com/openshift/api/image/docker10"
 	imagev1 "github.com/openshift/api/image/v1"
-	digestinternal "github.com/openshift/library-go/pkg/image/internal/digest"
-	imagereference "github.com/openshift/library-go/pkg/image/reference"
+	digestinternal "github.com/PavloVaida/library-go/pkg/image/internal/digest"
+	imagereference "github.com/PavloVaida/library-go/pkg/image/reference"
 )
 
 const (

@@ -23,7 +23,7 @@ import (
 	configv1 "github.com/openshift/api/config/v1"
 	configv1client "github.com/openshift/client-go/config/clientset/versioned/typed/config/v1"
 
-	"github.com/openshift/library-go/test/library"
+	"github.com/PavloVaida/library-go/test/library"
 )
 
 var (

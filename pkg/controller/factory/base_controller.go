@@ -13,8 +13,8 @@ import (
 
 	operatorv1 "github.com/openshift/api/operator/v1"
 
-	"github.com/openshift/library-go/pkg/operator/v1helpers"
-	operatorv1helpers "github.com/openshift/library-go/pkg/operator/v1helpers"
+	"github.com/PavloVaida/library-go/pkg/operator/v1helpers"
+	operatorv1helpers "github.com/PavloVaida/library-go/pkg/operator/v1helpers"
 )
 
 // baseController represents generic Kubernetes controller boiler-plate

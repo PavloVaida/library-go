@@ -3,8 +3,8 @@ package apiserver
 import (
 	"k8s.io/klog"
 
-	"github.com/openshift/library-go/pkg/operator/configobserver"
-	"github.com/openshift/library-go/pkg/operator/events"
+	"github.com/PavloVaida/library-go/pkg/operator/configobserver"
+	"github.com/PavloVaida/library-go/pkg/operator/events"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/util/sets"

@@ -3,8 +3,8 @@ package backingresource
 import (
 	"path/filepath"
 
-	"github.com/openshift/library-go/pkg/assets"
-	"github.com/openshift/library-go/pkg/operator/staticpod/controller/backingresource/bindata"
+	"github.com/PavloVaida/library-go/pkg/assets"
+	"github.com/PavloVaida/library-go/pkg/operator/staticpod/controller/backingresource/bindata"
 )
 
 const (

@@ -4,9 +4,9 @@ import (
 	"context"
 
 	operatorv1 "github.com/openshift/api/operator/v1"
-	"github.com/openshift/library-go/pkg/controller/factory"
-	"github.com/openshift/library-go/pkg/operator/events"
-	operatorv1helpers "github.com/openshift/library-go/pkg/operator/v1helpers"
+	"github.com/PavloVaida/library-go/pkg/controller/factory"
+	"github.com/PavloVaida/library-go/pkg/operator/events"
+	operatorv1helpers "github.com/PavloVaida/library-go/pkg/operator/v1helpers"
 
 	"k8s.io/klog"
 )

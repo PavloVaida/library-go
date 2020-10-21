@@ -6,9 +6,9 @@ import (
 
 	operatorv1 "github.com/openshift/api/operator/v1"
 
-	"github.com/openshift/library-go/pkg/controller/factory"
-	"github.com/openshift/library-go/pkg/operator/events"
-	"github.com/openshift/library-go/pkg/operator/v1helpers"
+	"github.com/PavloVaida/library-go/pkg/controller/factory"
+	"github.com/PavloVaida/library-go/pkg/operator/events"
+	"github.com/PavloVaida/library-go/pkg/operator/v1helpers"
 )
 
 type RemoveStaleConditionsController struct {

@@ -7,7 +7,7 @@ import (
 
 	"k8s.io/client-go/kubernetes/fake"
 
-	"github.com/openshift/library-go/pkg/operator/events"
+	"github.com/PavloVaida/library-go/pkg/operator/events"
 )
 
 func TestApplyDirectly(t *testing.T) {

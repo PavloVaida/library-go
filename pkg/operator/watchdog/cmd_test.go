@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/openshift/library-go/pkg/operator/events/eventstesting"
+	"github.com/PavloVaida/library-go/pkg/operator/events/eventstesting"
 )
 
 func TestPidObserver(t *testing.T) {

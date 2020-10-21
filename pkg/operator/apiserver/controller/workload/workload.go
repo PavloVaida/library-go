@@ -9,11 +9,11 @@ import (
 
 	operatorv1 "github.com/openshift/api/operator/v1"
 	openshiftconfigclientv1 "github.com/openshift/client-go/config/clientset/versioned/typed/config/v1"
-	clusteroperatorv1helpers "github.com/openshift/library-go/pkg/config/clusteroperator/v1helpers"
-	"github.com/openshift/library-go/pkg/operator/events"
-	"github.com/openshift/library-go/pkg/operator/resource/resourcemerge"
-	"github.com/openshift/library-go/pkg/operator/status"
-	"github.com/openshift/library-go/pkg/operator/v1helpers"
+	clusteroperatorv1helpers "github.com/PavloVaida/library-go/pkg/config/clusteroperator/v1helpers"
+	"github.com/PavloVaida/library-go/pkg/operator/events"
+	"github.com/PavloVaida/library-go/pkg/operator/resource/resourcemerge"
+	"github.com/PavloVaida/library-go/pkg/operator/status"
+	"github.com/PavloVaida/library-go/pkg/operator/v1helpers"
 
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
