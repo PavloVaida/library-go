@@ -13,8 +13,8 @@ import (
 	storageclientv1 "k8s.io/client-go/kubernetes/typed/storage/v1"
 	storageclientv1beta1 "k8s.io/client-go/kubernetes/typed/storage/v1beta1"
 
-	"github.com/PavloVaida/library-go/pkg/operator/events"
-	"github.com/PavloVaida/library-go/pkg/operator/resource/resourcemerge"
+	"github.com/openshift/library-go/pkg/operator/events"
+	"github.com/openshift/library-go/pkg/operator/resource/resourcemerge"
 )
 
 // ApplyStorageClass merges objectmeta, tries to write everything else

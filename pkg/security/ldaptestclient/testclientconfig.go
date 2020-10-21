@@ -1,7 +1,7 @@
 package ldaptestclient
 
 import (
-	"github.com/PavloVaida/library-go/pkg/security/ldapclient"
+	"github.com/openshift/library-go/pkg/security/ldapclient"
 	"gopkg.in/ldap.v2"
 )
 

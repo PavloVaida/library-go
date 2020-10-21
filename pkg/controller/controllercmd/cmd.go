@@ -21,14 +21,14 @@ import (
 
 	operatorv1alpha1 "github.com/openshift/api/operator/v1alpha1"
 
-	"github.com/PavloVaida/library-go/pkg/config/configdefaults"
-	"github.com/PavloVaida/library-go/pkg/controller/fileobserver"
-	"github.com/PavloVaida/library-go/pkg/crypto"
-	"github.com/PavloVaida/library-go/pkg/operator/events"
-	"github.com/PavloVaida/library-go/pkg/serviceability"
+	"github.com/openshift/library-go/pkg/config/configdefaults"
+	"github.com/openshift/library-go/pkg/controller/fileobserver"
+	"github.com/openshift/library-go/pkg/crypto"
+	"github.com/openshift/library-go/pkg/operator/events"
+	"github.com/openshift/library-go/pkg/serviceability"
 
 	// for metrics
-	_ "github.com/PavloVaida/library-go/pkg/controller/metrics"
+	_ "github.com/openshift/library-go/pkg/controller/metrics"
 )
 
 // ControllerCommandConfig holds values required to construct a command to run.

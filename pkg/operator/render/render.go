@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	"github.com/PavloVaida/library-go/pkg/assets"
-	"github.com/PavloVaida/library-go/pkg/operator/render/options"
+	"github.com/openshift/library-go/pkg/assets"
+	"github.com/openshift/library-go/pkg/operator/render/options"
 )
 
 // WriteFiles writes the manifests and the bootstrap config file.

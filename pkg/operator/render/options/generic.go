@@ -8,8 +8,8 @@ import (
 	"text/template"
 
 	"github.com/ghodss/yaml"
-	"github.com/PavloVaida/library-go/pkg/assets"
-	"github.com/PavloVaida/library-go/pkg/operator/resource/resourcemerge"
+	"github.com/openshift/library-go/pkg/assets"
+	"github.com/openshift/library-go/pkg/operator/resource/resourcemerge"
 	"github.com/spf13/pflag"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 )

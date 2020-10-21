@@ -21,10 +21,10 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/klog"
 
-	"github.com/PavloVaida/library-go/pkg/config/client"
-	"github.com/PavloVaida/library-go/pkg/controller/fileobserver"
-	"github.com/PavloVaida/library-go/pkg/operator/events"
-	"github.com/PavloVaida/library-go/pkg/operator/resource/retry"
+	"github.com/openshift/library-go/pkg/config/client"
+	"github.com/openshift/library-go/pkg/controller/fileobserver"
+	"github.com/openshift/library-go/pkg/operator/events"
+	"github.com/openshift/library-go/pkg/operator/resource/retry"
 )
 
 type FileWatcherOptions struct {

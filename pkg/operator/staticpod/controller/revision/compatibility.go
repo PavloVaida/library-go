@@ -1,7 +1,7 @@
 package revision
 
 import (
-	"github.com/PavloVaida/library-go/pkg/operator/revisioncontroller"
+	"github.com/openshift/library-go/pkg/operator/revisioncontroller"
 )
 
 // RevisionResource is an type alias to keep source code compatibility for old

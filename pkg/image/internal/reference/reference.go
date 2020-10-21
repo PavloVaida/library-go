@@ -27,7 +27,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/PavloVaida/library-go/pkg/image/internal/digest"
+	"github.com/openshift/library-go/pkg/image/internal/digest"
 )
 
 const (

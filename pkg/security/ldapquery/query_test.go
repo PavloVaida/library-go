@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/PavloVaida/library-go/pkg/security/ldaptestclient"
-	"github.com/PavloVaida/library-go/pkg/security/ldaputil"
+	"github.com/openshift/library-go/pkg/security/ldaptestclient"
+	"github.com/openshift/library-go/pkg/security/ldaputil"
 	"gopkg.in/ldap.v2"
 )
 

@@ -23,11 +23,11 @@ import (
 	configv1clientfake "github.com/openshift/client-go/config/clientset/versioned/fake"
 	configv1informers "github.com/openshift/client-go/config/informers/externalversions"
 
-	"github.com/PavloVaida/library-go/pkg/controller/factory"
-	encryptiondeployer "github.com/PavloVaida/library-go/pkg/operator/encryption/deployer"
-	encryptiontesting "github.com/PavloVaida/library-go/pkg/operator/encryption/testing"
-	"github.com/PavloVaida/library-go/pkg/operator/events"
-	"github.com/PavloVaida/library-go/pkg/operator/v1helpers"
+	"github.com/openshift/library-go/pkg/controller/factory"
+	encryptiondeployer "github.com/openshift/library-go/pkg/operator/encryption/deployer"
+	encryptiontesting "github.com/openshift/library-go/pkg/operator/encryption/testing"
+	"github.com/openshift/library-go/pkg/operator/events"
+	"github.com/openshift/library-go/pkg/operator/v1helpers"
 )
 
 func TestKeyController(t *testing.T) {

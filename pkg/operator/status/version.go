@@ -7,7 +7,7 @@ import (
 
 	corev1client "k8s.io/client-go/kubernetes/typed/core/v1"
 
-	"github.com/PavloVaida/library-go/pkg/operator/events"
+	"github.com/openshift/library-go/pkg/operator/events"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

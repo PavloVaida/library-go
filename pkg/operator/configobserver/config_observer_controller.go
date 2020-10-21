@@ -19,11 +19,11 @@ import (
 
 	operatorv1 "github.com/openshift/api/operator/v1"
 
-	"github.com/PavloVaida/library-go/pkg/controller/factory"
-	"github.com/PavloVaida/library-go/pkg/operator/condition"
-	"github.com/PavloVaida/library-go/pkg/operator/events"
-	"github.com/PavloVaida/library-go/pkg/operator/resourcesynccontroller"
-	"github.com/PavloVaida/library-go/pkg/operator/v1helpers"
+	"github.com/openshift/library-go/pkg/controller/factory"
+	"github.com/openshift/library-go/pkg/operator/condition"
+	"github.com/openshift/library-go/pkg/operator/events"
+	"github.com/openshift/library-go/pkg/operator/resourcesynccontroller"
+	"github.com/openshift/library-go/pkg/operator/v1helpers"
 )
 
 // Listers is an interface which will be passed to the config observer funcs.  It is expected to be hard-cast to the "correct" type

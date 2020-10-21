@@ -12,8 +12,8 @@ import (
 	ktesting "k8s.io/client-go/testing"
 
 	operatorv1 "github.com/openshift/api/operator/v1"
-	"github.com/PavloVaida/library-go/pkg/operator/events"
-	"github.com/PavloVaida/library-go/pkg/operator/v1helpers"
+	"github.com/openshift/library-go/pkg/operator/events"
+	"github.com/openshift/library-go/pkg/operator/v1helpers"
 )
 
 type configMapInfo struct {

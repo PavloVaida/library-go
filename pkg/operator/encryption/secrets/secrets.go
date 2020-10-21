@@ -14,7 +14,7 @@ import (
 	apiserverconfigv1 "k8s.io/apiserver/pkg/apis/config/v1"
 	corev1client "k8s.io/client-go/kubernetes/typed/core/v1"
 
-	"github.com/PavloVaida/library-go/pkg/operator/encryption/state"
+	"github.com/openshift/library-go/pkg/operator/encryption/state"
 )
 
 // ToKeyState converts a key secret to a key state.

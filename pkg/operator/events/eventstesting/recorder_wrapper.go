@@ -3,7 +3,7 @@ package eventstesting
 import (
 	"testing"
 
-	"github.com/PavloVaida/library-go/pkg/operator/events"
+	"github.com/openshift/library-go/pkg/operator/events"
 )
 
 type EventRecorder struct {

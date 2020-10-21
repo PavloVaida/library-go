@@ -19,14 +19,14 @@ import (
 	clientgotesting "k8s.io/client-go/testing"
 
 	operatorv1 "github.com/openshift/api/operator/v1"
-	"github.com/PavloVaida/library-go/pkg/controller/factory"
-	encryptiondeployer "github.com/PavloVaida/library-go/pkg/operator/encryption/deployer"
-	"github.com/PavloVaida/library-go/pkg/operator/encryption/encryptionconfig"
-	"github.com/PavloVaida/library-go/pkg/operator/encryption/state"
-	encryptiontesting "github.com/PavloVaida/library-go/pkg/operator/encryption/testing"
-	"github.com/PavloVaida/library-go/pkg/operator/events"
-	"github.com/PavloVaida/library-go/pkg/operator/events/eventstesting"
-	"github.com/PavloVaida/library-go/pkg/operator/v1helpers"
+	"github.com/openshift/library-go/pkg/controller/factory"
+	encryptiondeployer "github.com/openshift/library-go/pkg/operator/encryption/deployer"
+	"github.com/openshift/library-go/pkg/operator/encryption/encryptionconfig"
+	"github.com/openshift/library-go/pkg/operator/encryption/state"
+	encryptiontesting "github.com/openshift/library-go/pkg/operator/encryption/testing"
+	"github.com/openshift/library-go/pkg/operator/events"
+	"github.com/openshift/library-go/pkg/operator/events/eventstesting"
+	"github.com/openshift/library-go/pkg/operator/v1helpers"
 )
 
 func TestStateController(t *testing.T) {

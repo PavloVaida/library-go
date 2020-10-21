@@ -5,7 +5,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"github.com/PavloVaida/library-go/pkg/controller/factory"
+	"github.com/openshift/library-go/pkg/controller/factory"
 )
 
 // Migrator is a resource migration mechanism.

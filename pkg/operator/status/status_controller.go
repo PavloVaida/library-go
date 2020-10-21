@@ -16,12 +16,12 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 
-	configv1helpers "github.com/PavloVaida/library-go/pkg/config/clusteroperator/v1helpers"
-	"github.com/PavloVaida/library-go/pkg/controller/factory"
-	"github.com/PavloVaida/library-go/pkg/operator/events"
-	"github.com/PavloVaida/library-go/pkg/operator/management"
-	"github.com/PavloVaida/library-go/pkg/operator/resource/resourceapply"
-	operatorv1helpers "github.com/PavloVaida/library-go/pkg/operator/v1helpers"
+	configv1helpers "github.com/openshift/library-go/pkg/config/clusteroperator/v1helpers"
+	"github.com/openshift/library-go/pkg/controller/factory"
+	"github.com/openshift/library-go/pkg/operator/events"
+	"github.com/openshift/library-go/pkg/operator/management"
+	"github.com/openshift/library-go/pkg/operator/resource/resourceapply"
+	operatorv1helpers "github.com/openshift/library-go/pkg/operator/v1helpers"
 )
 
 type VersionGetter interface {

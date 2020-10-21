@@ -11,10 +11,10 @@ import (
 	corelistersv1 "k8s.io/client-go/listers/core/v1"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/PavloVaida/library-go/pkg/operator/configobserver"
-	"github.com/PavloVaida/library-go/pkg/operator/encryption/encryptionconfig"
-	encryptiontesting "github.com/PavloVaida/library-go/pkg/operator/encryption/testing"
-	"github.com/PavloVaida/library-go/pkg/operator/events"
+	"github.com/openshift/library-go/pkg/operator/configobserver"
+	"github.com/openshift/library-go/pkg/operator/encryption/encryptionconfig"
+	encryptiontesting "github.com/openshift/library-go/pkg/operator/encryption/testing"
+	"github.com/openshift/library-go/pkg/operator/events"
 )
 
 type secretsListers struct {

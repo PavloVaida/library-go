@@ -14,7 +14,7 @@ import (
 	clienttesting "k8s.io/client-go/testing"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/PavloVaida/library-go/pkg/operator/events"
+	"github.com/openshift/library-go/pkg/operator/events"
 )
 
 func TestEnsureSigningCertKeyPair(t *testing.T) {

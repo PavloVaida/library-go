@@ -5,7 +5,7 @@ import (
 
 	"k8s.io/client-go/util/workqueue"
 
-	"github.com/PavloVaida/library-go/pkg/operator/events"
+	"github.com/openshift/library-go/pkg/operator/events"
 )
 
 // Controller interface represents a runnable Kubernetes controller.

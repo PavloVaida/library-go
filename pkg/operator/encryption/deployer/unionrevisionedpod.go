@@ -6,8 +6,8 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/PavloVaida/library-go/pkg/operator/encryption/encryptionconfig"
-	"github.com/PavloVaida/library-go/pkg/operator/encryption/statemachine"
+	"github.com/openshift/library-go/pkg/operator/encryption/encryptionconfig"
+	"github.com/openshift/library-go/pkg/operator/encryption/statemachine"
 )
 
 // UnionRevisionLabelPodDeployer provides unified state from multiple distinct deployers.

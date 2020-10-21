@@ -7,7 +7,7 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 
 	configv1 "github.com/openshift/api/config/v1"
-	"github.com/PavloVaida/library-go/pkg/config/client"
+	"github.com/openshift/library-go/pkg/config/client"
 )
 
 // TODO this file needs to collapse with pkg/config/client.  We cannot safely delegate from this file because this one

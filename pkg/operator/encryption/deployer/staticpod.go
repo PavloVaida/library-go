@@ -3,7 +3,7 @@ package deployer
 import (
 	"k8s.io/client-go/tools/cache"
 
-	operatorv1helpers "github.com/PavloVaida/library-go/pkg/operator/v1helpers"
+	operatorv1helpers "github.com/openshift/library-go/pkg/operator/v1helpers"
 )
 
 // StaticPodNodeProvider returns the node list from the node status in the static pod operator status.

@@ -7,8 +7,8 @@ import (
 	operatorv1 "github.com/openshift/api/operator/v1"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/PavloVaida/library-go/pkg/controller/factory"
-	"github.com/PavloVaida/library-go/pkg/operator/events"
+	"github.com/openshift/library-go/pkg/controller/factory"
+	"github.com/openshift/library-go/pkg/operator/events"
 )
 
 func TestOperatorManagementStateController(t *testing.T) {

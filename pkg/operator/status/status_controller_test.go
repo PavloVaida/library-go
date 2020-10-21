@@ -17,9 +17,9 @@ import (
 	"github.com/openshift/client-go/config/clientset/versioned/fake"
 	configv1listers "github.com/openshift/client-go/config/listers/config/v1"
 
-	"github.com/PavloVaida/library-go/pkg/config/clusteroperator/v1helpers"
-	"github.com/PavloVaida/library-go/pkg/controller/factory"
-	"github.com/PavloVaida/library-go/pkg/operator/events"
+	"github.com/openshift/library-go/pkg/config/clusteroperator/v1helpers"
+	"github.com/openshift/library-go/pkg/controller/factory"
+	"github.com/openshift/library-go/pkg/operator/events"
 )
 
 func TestDegraded(t *testing.T) {

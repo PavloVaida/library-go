@@ -15,9 +15,9 @@ import (
 	clientgotesting "k8s.io/client-go/testing"
 
 	operatorv1 "github.com/openshift/api/operator/v1"
-	"github.com/PavloVaida/library-go/pkg/operator/encryption/secrets"
-	"github.com/PavloVaida/library-go/pkg/operator/encryption/state"
-	"github.com/PavloVaida/library-go/pkg/operator/v1helpers"
+	"github.com/openshift/library-go/pkg/operator/encryption/secrets"
+	"github.com/openshift/library-go/pkg/operator/encryption/state"
+	"github.com/openshift/library-go/pkg/operator/v1helpers"
 )
 
 const (

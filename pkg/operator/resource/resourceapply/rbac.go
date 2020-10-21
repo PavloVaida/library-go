@@ -12,8 +12,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	rbacclientv1 "k8s.io/client-go/kubernetes/typed/rbac/v1"
 
-	"github.com/PavloVaida/library-go/pkg/operator/events"
-	"github.com/PavloVaida/library-go/pkg/operator/resource/resourcemerge"
+	"github.com/openshift/library-go/pkg/operator/events"
+	"github.com/openshift/library-go/pkg/operator/resource/resourcemerge"
 )
 
 // ApplyClusterRole merges objectmeta, requires rules, aggregation rules are not allowed for now.

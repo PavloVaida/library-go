@@ -25,12 +25,12 @@ import (
 	configv1 "github.com/openshift/api/config/v1"
 	operatorv1alpha1 "github.com/openshift/api/operator/v1alpha1"
 
-	"github.com/PavloVaida/library-go/pkg/config/client"
-	"github.com/PavloVaida/library-go/pkg/config/configdefaults"
-	leaderelectionconverter "github.com/PavloVaida/library-go/pkg/config/leaderelection"
-	"github.com/PavloVaida/library-go/pkg/config/serving"
-	"github.com/PavloVaida/library-go/pkg/controller/fileobserver"
-	"github.com/PavloVaida/library-go/pkg/operator/events"
+	"github.com/openshift/library-go/pkg/config/client"
+	"github.com/openshift/library-go/pkg/config/configdefaults"
+	leaderelectionconverter "github.com/openshift/library-go/pkg/config/leaderelection"
+	"github.com/openshift/library-go/pkg/config/serving"
+	"github.com/openshift/library-go/pkg/controller/fileobserver"
+	"github.com/openshift/library-go/pkg/operator/events"
 )
 
 // StartFunc is the function to call on leader election start

@@ -6,9 +6,9 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	corev1lister "k8s.io/client-go/listers/core/v1"
 
-	"github.com/PavloVaida/library-go/pkg/operator/configobserver"
-	"github.com/PavloVaida/library-go/pkg/operator/encryption/encryptionconfig"
-	"github.com/PavloVaida/library-go/pkg/operator/events"
+	"github.com/openshift/library-go/pkg/operator/configobserver"
+	"github.com/openshift/library-go/pkg/operator/encryption/encryptionconfig"
+	"github.com/openshift/library-go/pkg/operator/events"
 )
 
 type SecretsListers interface {

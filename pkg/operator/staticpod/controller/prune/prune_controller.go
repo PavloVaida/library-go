@@ -17,12 +17,12 @@ import (
 	corev1client "k8s.io/client-go/kubernetes/typed/core/v1"
 
 	operatorv1 "github.com/openshift/api/operator/v1"
-	"github.com/PavloVaida/library-go/pkg/controller/factory"
-	"github.com/PavloVaida/library-go/pkg/operator/events"
-	"github.com/PavloVaida/library-go/pkg/operator/resource/resourceapply"
-	"github.com/PavloVaida/library-go/pkg/operator/resource/resourceread"
-	"github.com/PavloVaida/library-go/pkg/operator/staticpod/controller/prune/bindata"
-	"github.com/PavloVaida/library-go/pkg/operator/v1helpers"
+	"github.com/openshift/library-go/pkg/controller/factory"
+	"github.com/openshift/library-go/pkg/operator/events"
+	"github.com/openshift/library-go/pkg/operator/resource/resourceapply"
+	"github.com/openshift/library-go/pkg/operator/resource/resourceread"
+	"github.com/openshift/library-go/pkg/operator/staticpod/controller/prune/bindata"
+	"github.com/openshift/library-go/pkg/operator/v1helpers"
 )
 
 // PruneController is a controller that watches static installer pod revision statuses and spawns

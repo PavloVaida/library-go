@@ -12,8 +12,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	ktesting "k8s.io/client-go/testing"
 
-	"github.com/PavloVaida/library-go/pkg/operator/events/eventstesting"
-	"github.com/PavloVaida/library-go/pkg/operator/v1helpers"
+	"github.com/openshift/library-go/pkg/operator/events/eventstesting"
+	"github.com/openshift/library-go/pkg/operator/v1helpers"
 
 	corev1 "k8s.io/api/core/v1"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
@@ -23,7 +23,7 @@ import (
 
 	operatorv1 "github.com/openshift/api/operator/v1"
 
-	"github.com/PavloVaida/library-go/pkg/operator/events"
+	"github.com/openshift/library-go/pkg/operator/events"
 )
 
 func TestSyncSecret(t *testing.T) {

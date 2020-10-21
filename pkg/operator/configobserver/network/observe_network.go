@@ -8,7 +8,7 @@ import (
 	configlistersv1 "github.com/openshift/client-go/config/listers/config/v1"
 	"k8s.io/apimachinery/pkg/api/errors"
 
-	"github.com/PavloVaida/library-go/pkg/operator/events"
+	"github.com/openshift/library-go/pkg/operator/events"
 )
 
 // GetClusterCIDRs reads the cluster CIDRs from the global network configuration resource. Emits events if CIDRs are not found.

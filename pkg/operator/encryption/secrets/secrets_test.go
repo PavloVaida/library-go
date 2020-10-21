@@ -10,7 +10,7 @@ import (
 	v1 "k8s.io/apiserver/pkg/apis/config/v1"
 	"k8s.io/utils/diff"
 
-	"github.com/PavloVaida/library-go/pkg/operator/encryption/state"
+	"github.com/openshift/library-go/pkg/operator/encryption/state"
 )
 
 func TestRoundtrip(t *testing.T) {
